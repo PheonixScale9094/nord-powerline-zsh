@@ -4,7 +4,7 @@ ZSH_THEME_GIT_PROMPT_DIRTY=" %{$fg_bold[red]%}%{$fg_bold[black]%}"
 ZSH_THEME_GIT_PROMPT_CLEAN=""
 
 function nord_prompt {
-  prompt=$(print -P '%{$bg[cyan]$fg_bold[black]%} %n %{$bg[black]$fg_bold[cyan]%} %{$bg[black]$fg_bold[blue]%}%3c %{$reset_color$fg_bold[black]%}$(git_prompt_info)');
+  prompt=$(print -P '%{$bg[cyan]$fg_bold[black]%} %n %{$bg[black]$fg_bold[cyan]%} %{$bg[black]$fg_bold[blue]%}%3c %{$reset_color$fg_bold[black]%}$(_omz_git_prompt_info)');
   prompt_base=$(print -P '%n  %3c ');
   prompt_size=${#prompt_base}
 
