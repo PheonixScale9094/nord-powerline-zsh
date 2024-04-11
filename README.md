@@ -18,7 +18,7 @@ It is designed to match the official Nord [Tmux Theme](https://github.com/nordth
 ## Installation
 1. Clone the repository
 ```bash
-git clone https://github.com/PheonixScale9094/nord-powerline-zsh.git ~/.oh-my-zsh/nord-powerline-zsh
+git clone https://github.com/PheonixScale9094/nord-powerline-zsh.git ~/.oh-my-zsh/themes/nord-powerline-zsh
 ```
 
 2. Change the following line to your ~/.zshrc file
